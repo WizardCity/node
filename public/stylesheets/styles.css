@@ -1,29 +1,33 @@
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
 body {
     background-color: white;
     text-align: center;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 header {
-	padding-left: 10px;
 	padding-right: 10px;
     background-color: black;
     height:150px;
 }
 
 img.Logo{
-	height: 100px;
+	height: 125px;
+	padding-top: 20px;
+	padding-right: 20px;
 	float:right;
-	padding-top: 25px;
-	padding-right: 10px;
 }
 
 h1{
 	color:white;
 	text-align: left;
-	padding-top: 50px;
-	padding-left: 25px;
-	font-size: 300%;
-	font-family: monospace;
+	padding-top: 35px;
+	padding-left: 20px;
+	font-size: 450%;
+	font-family: 'Amatic SC', cursive;
 }
 
 p {
@@ -36,11 +40,14 @@ div.l_c {
 }
 
 div.r_c {
-	text-align:right;
+	float:right;
 	padding-right: 10px;
 }
 
 iframe.page_music {
 	height: 330px;
 	width: 630px;
+    position: relative;
+    margin: -50px auto auto auto;
+    top: 50%;
 }
