@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
-	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">   
+	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/login_styles.css">      
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -21,33 +22,35 @@
 	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top">
 	  <div class="container-fluid">
 	    <ul class="nav navbar-nav">
-	      	<li class="active"><a href="#">Home</a></li>
+	      	<li><a href="/index.html">Home</a></li>
 	      	<li><a href="/about.html">About</a></li>
 	      	<li><a href="/future_projects.html">Future Projects</a></li> 
 	      	<li><a href="/contact.html">Contact</a></li> 
 	    </ul>
 	    <ul class="nav navbar-nav navbar-right">
       		<li><a href="/register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      		<li><a href="/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      		<li class="active"><a href="/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     	</ul>
 	  </div>
 	</nav>
+	
+	<form action="action_page.php">
+	<h2> Welcome Back </h2>
 
-	<div class="news_feed">
+	<div class="container">
+    	<label><b>Username</b></label>
+    	<input type="text" placeholder="Enter Username" name="uname" required>
 
-		<div class="l_c">
+    	<label><b>Password</b></label>
+    	<input type="password" placeholder="Enter Password" name="psw" required>
+		
+		<div class="btn_container">	
+    		<button type="submit" class="btn btn-success">Login</button>
+    		<input type="checkbox" checked="checked"> Remember me
+    	</div>
+    </div>
 
-			<h2>The Day to Day</h2>
-			<p> This website is the first project to be added to the list. It is still under construction. When finished I hope to, along side hosting this site, upload a tutuorial video. In the mean time, until the video is ready, please enjoy the music vid provided. Just a taste of the music I listen to when coding. Whats yours? Let me know via facebook or email. Happy Coding</p>
-
-		</div>
-
-		<div class="r_c">
-			<iframe class="page_music" src="http://www.youtube.com/embed/1hJKhiew2O0?controls=1">
-			</iframe>
-		</div>
-
-	</div>
+    </form>
 
 </body>
 </html>
