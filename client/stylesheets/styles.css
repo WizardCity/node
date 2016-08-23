@@ -39,6 +39,7 @@ h3.projectHeading{
 	padding:10px;
 	font-size: 250%;
 	font-family: 'Amatica SC', cursive;
+	margin-top: 0;
 }
 
 p {
@@ -56,7 +57,6 @@ p {
 
 div.news_feed {
 	padding: 10px;
-    border: 3px solid #f1f1f1;
     margin:0 auto;
     width: 70%;
     overflow: auto;	
