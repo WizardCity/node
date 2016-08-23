@@ -12,9 +12,26 @@
   "author": "Sean Harper",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.14.0",
-    "multer": "^1.1.0"
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "express": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "passport-http": "latest", 
+    "passport-http-bearer": "latest", 
+    "passport-oauth2-client-password": "latest", 
+    "oauth2orize": "latest"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
   }
 }
