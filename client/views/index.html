@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>ProjectList</title>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
@@ -22,7 +24,7 @@
 
 <body ng-controller="MyProjectList">
 
-	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top">
+	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top" data-spy="affix" data-offset-top="150">
 	  <div class="container-fluid">
 	    <ul class="nav navbar-nav">
 	      	<li class='active'><a href='/'>Home</a></li>
@@ -44,7 +46,7 @@
 
 		<div class="leftContainer">
 
-			<h3>{{x.h3}}</h3>
+			<h3 class="projectHeading">{{x.h3}}</h3>
 			<p>{{x.p}}</p>
 
 		</div>

@@ -33,14 +33,32 @@ h2.homepage{
 	font-size: 400%;
 	font-family: 'Amatic SC', cursive;
 }
+h3.projectHeading{
+	background-color: black;
+	color: white;
+	padding:10px;
+	font-size: 250%;
+	font-family: 'Amatica SC', cursive;
+}
 
 p {
     font-family: verdana;
     font-size: 20px;
 }
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
 div.news_feed {
-	padding: 20px;
+	padding: 10px;
     border: 3px solid #f1f1f1;
+    margin:0 auto;
+    width: 70%;
     overflow: auto;	
 }
 div.leftContainer {

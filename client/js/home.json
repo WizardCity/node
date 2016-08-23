@@ -2,7 +2,17 @@
 	"media":[
   		{
   			"h3"	: "Website Update",
-  			"p"		: "All tabs are now linked. Home page now loads content from external json file to avoid having to edit in code. Ensure new content is added above old in json file. Provided is a great rendition of Netflix's new show Stranger Things intro song. Great show great music. ",
+  			"p"		: "All tabs are now linked. Home page now loads content from external json file to avoid having to edit in code. Ensure new content is added above old in json file. Provided is a great rendition of Netflix's new show Stranger Things intro song. Great show, great music. ",
+  			"url"	: "https://www.youtube.com/embed/UtKSWX6lah0?controls=1"
+  		},
+  		{
+  			"h3"	: "Website",
+  			"p"		: "This website is the first project to be added to the list. It is still under construction. When finished I hope to, along side hosting this site, upload a tutorial video. In the mean time, until the video is ready, please enjoy the music video provided. Just a taste of the music I listen to when working. What music gets you motivated/focused when working? Let me know via facebook or email(found in the Contacts tab). Happy Coding",
+  			"url"	: "http://www.youtube.com/embed/1hJKhiew2O0?controls=1"
+  		},
+  		{
+  			"h3"	: "Website Update",
+  			"p"		: "All tabs are now linked. Home page now loads content from external json file to avoid having to edit in code. Ensure new content is added above old in json file. Provided is a great rendition of Netflix's new show Stranger Things intro song. Great show, great music. ",
   			"url"	: "https://www.youtube.com/embed/UtKSWX6lah0?controls=1"
   		},
   		{
