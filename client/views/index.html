@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myProjectList">
+<head>
+	<meta charset="UTF-8">
+	<title>ProjectList</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
+    
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/controllers/WebSite-controller.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+</head>
+
+<header>
+	<!-- <img class="Logo" src="/client/images/logo.png" alt="Logo"> -->
+	<h1 class="Title">Todays Project</h1>
+</header>
+
+<body ng-controller="MyProjectList">
+
+	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top">
+	  <div class="container-fluid">
+	    <ul class="nav navbar-nav">
+	      	<li class='active'><a href='/'>Home</a></li>
+	      	<li><a href="/about">About</a></li>
+	      	<li><a href="/future_projects">Future Projects</a></li> 
+	      	<li><a href="/contact">Contact</a></li> 
+
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+      		<li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      		<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    	</ul>
+	  </div>
+	</nav>
+
+	<h2 class="homepage">Project Feed</h2>
+
+	<div class="news_feed" ng-repeat="x in myData">
+
+		<div class="leftContainer">
+
+			<h3>{{x.h3}}</h3>
+			<p>{{x.p}}</p>
+
+		</div>
+
+		<div class="rightContainer">
+			<iframe class="page_music" ng-src="{{x.url}}">
+			</iframe>
+		</div>
+	</div>
+
+</body>
+</html>

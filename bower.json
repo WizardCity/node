@@ -1,0 +1,22 @@
+{
+  "name": "WebSite",
+  "description": "test",
+  "main": "server.js",
+  "authors": [
+    "Sean Harper"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/WizardCity/node",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0"
+  }
+}

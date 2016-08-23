@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/login_styles.css">  
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+</head>
+
+<header>
+	<!-- <img class="Logo" src="/client/images/logo.png" alt="Logo"> -->
+	<h1 class="Title">Todays Project</h1>
+</header>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top">
+	  <div class="container-fluid">
+	    <ul class="nav navbar-nav">
+	      	<li><a href="/">Home</a></li>
+	      	<li><a href="/about">About</a></li>
+	      	<li><a href="/future_projects">Future Projects</a></li> 
+	      	<li><a href="/contact">Contact</a></li> 
+
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+      		<li class="active"><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      		<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    	</ul>
+	  </div>
+	</nav>
+
+<form action="action_page.php">
+	<h2> Glad you could join us </h2>
+
+	<div class="container">
+    	<label><b>Username</b></label>
+    	<input type="text" placeholder="Enter Username" name="uname" required>
+
+    	<label><b>Password</b></label>
+    	<input type="password" placeholder="Enter Password" name="psw" required>
+
+    	<label><b>Confirm Password</b></label>
+    	<input type="password" placeholder="Please Re-Enter Password" name="re_psw" required>
+		
+		<div class="btn_container">	
+			<button type="button" class="btn btn-success">Sign Up</button>
+			<button type="button" class="btn btn-link"><a href="/index.html">Cancel</a></button>
+    	</div>
+    </div>
+
+    </form>
+	
+</body>
+</html>
