@@ -10,9 +10,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+   
     
 	<script type="text/javascript" src="/js/app.js"></script>
-	<script type="text/javascript" src="/js/controllers/WebSite-controller.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
 </head>
@@ -22,26 +23,29 @@
 	<h1 class="Title">Todays Project</h1>
 </header>
 
-<body ng-controller="MyProjectList">
+<body>
 
-	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top" data-spy="affix" data-offset-top="150">
+	<nav class="navbar navbar-inverse navbar-embossed navbar-static-top" data-spy="affix" data-offset-top="150" ng-controller="NavCtrl">
 	  <div class="container-fluid">
 	    <ul class="nav navbar-nav">
 	      	<li class='active'><a href='/'>Home</a></li>
 	      	<li><a href="/about">About</a></li>
-	      	<li><a href="/future_projects">Future Projects</a></li> 
+	      	<li ng-show="isLoggedIn()"><a href="/future_projects">Future Projects</a></li> 
 	      	<li><a href="/contact">Contact</a></li> 
 
 	    </ul>
 	    <ul class="nav navbar-nav navbar-right">
-      		<li><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      		<li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      		<li ng-show="isLoggedIn()"><a>{{currentUser()}}</a></li>
+      		<li ng-hide="isLoggedIn()"><a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      		<li ng-hide="isLoggedIn()"><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      		<li ng-show="isLoggedIn()"><a href="" ng-click="logOut()">Log Out</a></li>
     	</ul>
 	  </div>
 	</nav>
 
 	<h2 class="homepage">Project Feed</h2>
-
+	
+	<div ng-controller="MyProjectList">
 	<div class="news_feed" ng-repeat="x in myData">
 
 		<div class="leftContainer">
@@ -55,6 +59,7 @@
 			<iframe class="page_music" ng-src="{{x.url}}">
 			</iframe>
 		</div>
+	</div>
 	</div>
 
 </body>

@@ -2,7 +2,7 @@
   "name": "node",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "test": "tests"
   },
@@ -12,18 +12,26 @@
   "author": "Sean Harper",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8",
+    "angular": "latest",
+    "angular-route": "latest",
     "body-parser": "latest",
     "cookie-parser": "latest",
+    "crypto": "latest",
     "express": "latest",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "latest",
+    "method-override": "latest",
     "mongodb": "latest",
     "mongoose": "latest",
+    "morgan": "latest",
     "multer": "latest",
-    "passport-http": "latest", 
-    "passport-http-bearer": "latest", 
-    "passport-oauth2-client-password": "latest", 
-    "oauth2orize": "latest"
+    "oauth2orize": "latest",
+    "passport": "latest",
+    "passport-http": "latest",
+    "passport-http-bearer": "latest",
+    "passport-local": "latest",
+    "passport-local-mongoose": "latest",
+    "passport-oauth2-client-password": "latest"
   },
   "devDependencies": {
     "bower": "^1.7.9",

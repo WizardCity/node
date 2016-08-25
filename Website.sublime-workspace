@@ -91,94 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "server.js",
-			"settings":
-			{
-				"buffer_size": 1292,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/js/home.json",
-			"settings":
-			{
-				"buffer_size": 1906,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/views/index.html",
-			"settings":
-			{
-				"buffer_size": 2078,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/stylesheets/styles.css",
-			"settings":
-			{
-				"buffer_size": 1234,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/stylesheets/login_styles.css",
-			"settings":
-			{
-				"buffer_size": 723,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/js/app.js",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/js/controllers/WebSite-controller.js",
-			"settings":
-			{
-				"buffer_size": 259,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/MeanTutorial/main.js",
-			"settings":
-			{
-				"buffer_size": 601,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/MeanTutorial/client/views/index.html",
-			"settings":
-			{
-				"buffer_size": 861,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/MeanTutorial/client/js/controllers/meetups-controller.js",
-			"settings":
-			{
-				"buffer_size": 428,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/MeanTutorial/client/js/app.js",
-			"settings":
-			{
-				"buffer_size": 53,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -238,16 +150,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/WebSite",
-		"/C/WebSite/client",
-		"/C/WebSite/client/js",
-		"/C/WebSite/server/controllers",
-		"/C/WebSite/server/models"
-	],
 	"file_history":
 	[
+		"/C/WebSite/server.js",
+		"/C/WebSite/Website.sublime-project",
+		"/C/WebSite/client/js/home.json",
+		"/C/WebSite/package.json",
+		"/C/WebSite/client/views/index.html",
+		"/C/WebSite/client/stylesheets/styles.css",
+		"/C/WebSite/client/stylesheets/login_styles.css",
+		"/C/WebSite/client/js/app.js",
+		"/C/WebSite/client/js/controllers/WebSite-controller.js",
+		"/C/node/nodetest1/package.json",
+		"/C/MeanTutorial/client/js/app.js",
+		"/C/MeanTutorial/client/js/controllers/meetups-controller.js",
+		"/C/MeanTutorial/client/views/index.html",
+		"/C/MeanTutorial/main.js",
 		"/C/WebSite/.gitignore",
 		"/C/WebSite/.gitattributes",
 		"/C/MeanTutorial/server/models/meetup.js",
@@ -264,25 +182,13 @@
 		"/C/mean/public/js/app.js",
 		"/C/mean/server.js",
 		"/C/mean/app/controllers/articles.js",
-		"/C/WebSite/client/stylesheets/styles.css",
 		"/C/WebSite/client/views/register.html",
 		"/C/WebSite/client/views/login.html",
 		"/C/WebSite/client/views/future_projects.html",
 		"/C/WebSite/client/views/contact.html",
 		"/C/WebSite/client/views/about.html",
-		"/C/WebSite/client/views/index.html",
-		"/C/WebSite/package.json",
-		"/C/WebSite/Website.sublime-project",
-		"/C/WebSite/server.js",
 		"/C/WebSite/bower_components/angular/package.json",
-		"/C/WebSite/client/stylesheets/login_styles.css",
-		"/C/WebSite/client/js/home.json",
-		"/C/MeanTutorial/main.js",
 		"/C/WebSite/client/images/logo.png",
-		"/C/WebSite/client/js/app.js",
-		"/C/MeanTutorial/client/js/controllers/meetups-controller.js",
-		"/C/MeanTutorial/client/js/app.js",
-		"/C/MeanTutorial/client/views/index.html",
 		"/C/MeanTutorial/package.json",
 		"/C/MeanTutorial/myApp/package.json",
 		"/C/WebSite/public/stylesheets/login_styles.css",
@@ -373,9 +279,7 @@
 		"/C/ToDo/package.json",
 		"/C/ToDo/mean.json",
 		"/C/ToDo/packages/custom/meanStarter/package.json",
-		"/C/Users/Seán/Desktop/twotapjs/src/twotapDataProvider.js",
-		"/C/Users/Seán/Desktop/Port Number.txt",
-		"/C/Users/Seán/Desktop/gay porn.txt.txt"
+		"/C/Users/Seán/Desktop/twotapjs/src/twotapDataProvider.js"
 	],
 	"find":
 	{
@@ -444,329 +348,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								372,
-								372
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "client/js/home.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1906,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								957,
-								957
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/views/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1053,
-								1053
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/stylesheets/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								602,
-								602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "client/stylesheets/login_styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 723,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "client/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								4
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "client/js/controllers/WebSite-controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 7,
-					"file": "/C/MeanTutorial/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								598,
-								598
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/MeanTutorial/client/views/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								671,
-								671
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/MeanTutorial/client/js/controllers/meetups-controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 428,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/MeanTutorial/client/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 53,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -787,12 +370,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -803,7 +380,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},

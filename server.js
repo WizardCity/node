@@ -1,46 +1,40 @@
-var express = require('express');
+var express 		= require('express'),
+	app 			= express(),
+	mongoose 		= require('mongoose'),
+	bodyParser 		= require('body-parser'),
+	methodOverride 	= require('method-override'),
+	morgan 			= require('morgan'),
+	database 		= require('./server/config/database'),
+	passport 		= require('passport');
+
+var router = express.Router();
 // var path = require('path');
 // var gulp = require('gulp');
 // var concat = require('gulp-concat');
-// var mongo = require('mongodb');
-// var monk = require('monk');
-// var db = monk('localhost:27017/WebSite');
 
-var app = express();
+// Connect to mongodb
+mongoose.connect(database.url);
 
-//Make our db accessible to our router
-// app.use(function(req,res,next){
-// 	req.db = db;
-// 	next();
-// });
+app.use(express.static(__dirname + '/client'));					// set the static files location /client/images will be /images
+app.use('/js', express.static(__dirname + '/client/js'));		// set the static files location /js will be /client/js
+app.use(passport.initialize());
+app.use(morgan('dev'));                                         // log every request to the console
+app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
+app.use(bodyParser.json());                                     // parse application/json
+app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
+app.use(methodOverride());
 
-app.use(express.static(__dirname + '/client'));
-app.use('/js', express.static(__dirname + '/client/js'));
 
-app.get('/', function(req, res){
-	res.sendfile(__dirname + '/client/views/index.html');
-});
+require('./server/models/Users');
+require('./server/config/passport');
 
-app.get('/about', function(req, res){
-	res.sendfile(__dirname + '/client/views/about.html');
-});
+// Router for Webpages
+urlRoutes= require('./server/Routes/index'),
+app.use(require('./server/Routes'));
 
-app.get('/future_projects', function(req, res){
-	res.sendfile(__dirname + '/client/views/future_projects.html');
-});
 
-app.get('/contact', function(req, res){
-	res.sendfile(__dirname + '/client/views/contact.html');
-});
 
-app.get('/login', function(req, res){
-	res.sendfile(__dirname + '/client/views/login.html');
-});
-
-app.get('/register', function(req, res){
-	res.sendfile(__dirname + '/client/views/register.html');
-});
-	
+//Connecting to network at post|8081	
 var server = app.listen(8081, function () {
 
   var host = server.address().address
